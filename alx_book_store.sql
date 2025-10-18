@@ -17,7 +17,7 @@ CREATE TABLE BOOKS (
     author_id INT,
     price DOUBLE,
     publication_date DATE,
-    FOREIGN KEY (author_id) REFERENCES AUTHORS(author_id)
+    FOREIGN KEY (authors) REFERENCES AUTHORS(author_id)
 );
 
 -- Create the CUSTOMERS table
